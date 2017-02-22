@@ -22,7 +22,7 @@ exports.initLocals = function (req, res, next) {
 		{ label: '首页', key: 'home', href: '/' },
 		{ label: '最新资讯', key: 'news', href: '/news' },
 		{ label: '关于我们', key: 'about', href: '/about' },
-		{ label: '联系我们', key: 'contact', hred: '/contact'}
+		{ label: '联系我们', key: 'contact', href: '/contact'}
 	];
 	res.locals.user = req.user;
 	next();
